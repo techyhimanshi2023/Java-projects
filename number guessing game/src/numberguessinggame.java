@@ -6,7 +6,7 @@ public class numberguessinggame{
         int guess=0;
         System.out.println("Enter a num between 1 and 100:");
         do{
-            for(int trys=5; trys>=1; trys--) {
+            for(int trys=6; trys>=1; trys--) {
                 System.out.println("you only have " + trys +" tries left");
                 guess = sc.nextInt();
                 if (guess < nm) {
